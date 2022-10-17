@@ -30,7 +30,7 @@ const ExpenseForm = (props) => {
      e.preventDefault()
      let value = {
       title : enteredTitle,
-      amount : enteredAmount,
+      amount : +enteredAmount,
       date : new Date(enteredDate)
      }
     //  SetUserInputValue((prevState) => {
